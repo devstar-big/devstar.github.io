@@ -36,9 +36,8 @@ export default function Contact() {
             </form>
             <div>
               <ul className="contact-list">
-                <li><strong>Email:</strong> <a href="mailto:devStar@gmail.com">devStar@gmail.com</a></li>
-                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/devStar" target="_blank" rel="noopener">linkedin.com/in/devStar</a></li>
-                <li><strong>GitHub:</strong> <a href="https://github.com/yourusername" target="_blank" rel="noopener">github.com/yourusername</a></li>
+                <li><strong>Email:</strong> <a className="link" href="mailto:devStar2025@outlook.com">devStar2025@outlook.com</a></li>
+                <li><strong>GitHub:</strong> <a className="link" href="https://github.com/devstar-big" >github.com/devstar-big</a></li>
               </ul>
             </div>
           </div>

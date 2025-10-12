@@ -24,7 +24,7 @@ body {
     radial-gradient(1200px 600px at 80% -10%, rgba(79,156,255,0.15), transparent 60%),
     radial-gradient(1000px 500px at 10% -20%, rgba(34,211,238,0.14), transparent 60%),
     linear-gradient(180deg, #0b0f14 0%, #0a0d12 100%);
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  
   line-height: 1.6;
   display: flex;
   min-height: 100vh;
@@ -36,6 +36,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   padding: 20px 20px;
+  
 }
 
 .site-header {
@@ -155,6 +156,16 @@ body main.main-filled, main.main-filled { background: linear-gradient(180deg, rg
   .nav-list { display: none; position: absolute; right: 16px; top: 56px; background: var(--panel); border: 1px solid var(--border); border-radius: 12px; flex-direction: column; padding: 10px; width: 200px; box-shadow: var(--shadow); }
   .nav-list.open { display: flex; }
 }
-
+.main-filled{
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(79,156,255,0.15), transparent 60%),
+    radial-gradient(1000px 500px at 10% -20%, rgba(34,211,238,0.14), transparent 60%),
+    linear-gradient(180deg, #0b0f14 0%, #0a0d12 100%);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
 html { scroll-behavior: smooth; }
 
+.link{
+  color:gray;
+  text-decoration: none;
+}

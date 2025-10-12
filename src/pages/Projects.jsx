@@ -20,8 +20,8 @@ export default function Projects() {
                     }
                   </div>
                   <div className="link-group">
-                    <a href="https://todostar.netlify.app/" rel="noopener" className="text-link">{project.live}</a>
-                    <a href="#" target="_blank" rel="noopener" className="text-link">{project.gitHub}</a>
+                    <a href={project.live} rel="noopener" className="text-link">Live</a>
+                    <a href={project.gitHub} target="_blank" rel="noopener" className="text-link">GitHub</a>
                   </div>
                 </article>
               ))

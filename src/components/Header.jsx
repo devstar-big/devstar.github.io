@@ -19,7 +19,9 @@ export default function Header() {
   return (
     <header className="site-header" ref={headerRef}>
       <div className="container header-inner">
-        <Link to="/" className="brand">Dev Star</Link>
+        <Link to="/" className="brand">
+        <h1>Dev Star</h1>
+        </Link>
         <nav className="nav">
           <button
             className="nav-toggle"

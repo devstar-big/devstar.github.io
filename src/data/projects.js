@@ -3,15 +3,15 @@ export const projects= [
         title:"📝 To-Do List App",
         content:"A simple task manager with LocalStorage support.",
         skills:"HTML,CSS,JavaScript",
-        live:"Live Demo",
-        gitHub:"GitHub"
+        live:"https://todostar.netlify.app/",
+        gitHub:"https://github.com/devstar-big/devstar.github.io/tree/todo"
     },
     {
         title:"🎬 Movie Search App",
-        content:"ASearch movies using an API (built with React).",
+        content:"A Search movies using an API (built with Lovable).",
         skills:"React,API",
-        live:"Live Demo",
-        gitHub:"GitHub"
+        live:"https://devstar-film.lovable.app/",
+        gitHub:"https://github.com/devstar-big/devstar-film"
     },
     {
         title:"📓 Notes API",
